@@ -10,7 +10,6 @@ This project uses a directed acyclic graph (DAG) to pass a business "state" thro
 - **Visitor Analyst:** Estimates visitor patterns, comparing weekday vs. weekend dynamics.
 - **Strategy Consultant:** Develops actionable business recommendations based on competitor weaknesses.
 - **Report Compiler:** Aggregates all findings into a professional, executive-ready Markdown report.
----
 
 ## Tech Stack
 - **Orchestration:** LangGraph
@@ -18,7 +17,6 @@ This project uses a directed acyclic graph (DAG) to pass a business "state" thro
 - **Language:** Python 3.12+
 - **State Management:** Python TypedDict
 
----
 ## Getting Started
 
 **1. Prerequisites**
