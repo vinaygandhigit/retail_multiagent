@@ -41,151 +41,113 @@ result = app.invoke(input_state)
 print(result["report"])
 ```
 **4. Example Output**
-**The system generates a detailed Competitive Intelligence Report including:
-Competitor Snapshots:** (e.g., Nordstrom, Macy's, H&M, Zara, Uniqlo)
-**Traffic Drivers:** Analysis of office workers vs. weekend tourists.
-**Strategic Pillars:** Recommendations for "Click & Collect" optimization, "San Francisco Style" curated collections, and "Power Hour" weekday promotions.
+**The system generates a detailed Competitive Intelligence Report including:**
+- **Competitor Snapshots:** (e.g., Nordstrom, Macy's, H&M, Zara, Uniqlo)
+- **Traffic Drivers:** Analysis of office workers vs. weekend tourists.
+- **Strategic Pillars:** Recommendations for "Click & Collect" optimization, "San Francisco Style" curated collections, and "Power Hour" weekday promotions.
 
-```
-    Competitive Intelligence Report for Retail Business
+**Competitive Intelligence Report for Retail Business :**
 
-    Location: Downtown San Francisco
-    Competitors: Nordstrom, Macy's, H&M, Zara, Uniqlo
-    Visitors: ## Downtown San Francisco Retail Foot Traffic Analysis: Competitor Snapshot
+- **Location:** downtown San Francisco
+- **Competitors:** Macy's, Nordstrom, H&M, Zara, Uniqlo
+- **Visitors:** Here's an analysis of retail foot traffic for downtown San Francisco competitors:
 
-**Executive Summary:**
+**Downtown San Francisco Retail Foot Traffic Analysis**
 
-This analysis estimates the foot traffic for key retailers in Downtown San Francisco, considering store size, location, and general brand appeal. Nordstrom and Macy's, as anchor department stores, are expected to draw the highest overall traffic, particularly on weekends. Fast fashion retailers like H&M, Zara, and Uniqlo will see significant weekday traffic driven by local workers and shoppers, with a notable surge on weekends due to their appeal to a broader demographic.
+The downtown San Francisco retail landscape, particularly around Union Square and Powell Street, benefits from significant tourist traffic, local shoppers, and office workers. Foot traffic patterns show a clear distinction between weekdays, driven by a mix of local activity and early tourists, and weekends, which see a substantial surge from leisure shoppers and a higher volume of tourists.
 
-**Competitor Foot Traffic Estimates (Downtown San Francisco):**
+---
 
-*   **Nordstrom:**
-    *   **Estimated Visitors:** High
-    *   **Key Drivers:** Established brand reputation, broad product offering (apparel, accessories, cosmetics), prime location, and strong weekend draw.
-    *   **Weekday vs. Weekend:** Weekends will see a significant increase in traffic compared to weekdays, driven by leisure shoppers and tourists.
+**Competitor Foot Traffic Estimates:**
 
-*   **Macy's:**
-    *   **Estimated Visitors:** High
-    *   **Key Drivers:** Large store footprint, diverse merchandise categories, strong brand recognition, and a central location.
-    *   **Weekday vs. Weekend:** Similar to Nordstrom, Macy's experiences a substantial uplift in foot traffic on weekends. Weekdays benefit from local office workers and targeted shoppers.
+*   **Nordstrom (Note: Downtown SF location closed in August 2023)**
+    *   *For the purpose of this analysis, assuming a prime downtown location were still operational:*
+    *   **Estimated Daily Visitors:**
+        *   **Weekdays:** 2, 500 - 3, 800
+        *   **Weekends:** 4, 000 - 6, 000
+    *   **Insights:** Nordstrom historically attracted a premium demographic with a focus on quality and service. Its large store size and prime location within the SF Centre (when operational) ensured consistent, albeit perhaps less impulse-driven, foot traffic. Weekends would have seen a notable increase from leisure shoppers.
 
-*   **H&M:**
-    *   **Estimated Visitors:** Moderate to High
-    *   **Key Drivers:** Trendy and affordable fashion, accessible price points, and a strong appeal to younger demographics and budget-conscious shoppers.
-    *   **Weekday vs. Weekend:** Weekdays will see consistent traffic from office workers and students. Weekends will experience a notable surge as it becomes a destination for fashion-forward browsing and purchasing.
+*   **Macy's (Union Square Flagship)**
+    *   **Estimated Daily Visitors:**
+        *   **Weekdays:** 3, 000 - 4, 500
+        *   **Weekends:** 5, 000 - 7, 500
+    *   **Insights:** As an iconic, multi-story flagship store on Union Square, Macy's benefits from immense brand recognition and a highly attractive location. It serves a broad demographic, from tourists seeking souvenirs to locals shopping for department store staples. Its sheer size allows for high visitor capacity, with weekends experiencing a significant boost from leisure and tourist traffic.
 
-*   **Zara:**
-    *   **Estimated Visitors:** Moderate to High
-    *   **Key Drivers:** Fashion-forward and on-trend apparel, perceived higher quality than some fast fashion competitors, and a strong brand image.
-    *   **Weekday vs. Weekend:** Weekdays will attract shoppers seeking current styles for work and social occasions. Weekends will see a significant increase in traffic, driven by its popularity for trend-driven purchases.
+*   **Zara (Stockton Street)**
+    *   **Estimated Daily Visitors:**
+        *   **Weekdays:** 3, 800 - 5, 500
+        *   **Weekends:** 6, 000 - 8, 500
+    *   **Insights:** Zara's prominent Stockton Street location, coupled with its fast-fashion model and strong brand appeal, drives very high foot traffic. It attracts a fashion-conscious demographic looking for trendy, affordable apparel. The store's layout encourages browsing and quick purchases, leading to high visitor turnover, especially on weekends when leisure shopping peaks.
 
-*   **Uniqlo:**
-    *   **Estimated Visitors:** Moderate to High
-    *   **Key Drivers:** Focus on functional, high-quality basics and innovative materials, appealing to a wide demographic seeking value and practicality.
-    *   **Weekday vs. Weekend:** Weekdays will benefit from local shoppers and those seeking everyday essentials. Weekends will see a strong increase as it attracts a broader audience looking for versatile and affordable clothing.
+*   **Uniqlo (Powell Street)**
+    *   **Estimated Daily Visitors:**
+        *   **Weekdays:** 4, 000 - 6, 000
+        *   **Weekends:** 6, 500 - 9, 000
+    *   **Insights:** Situated on the bustling Powell Street, Uniqlo benefits from extremely high pedestrian traffic, including a significant tourist presence near the cable car turnaround. Its focus on quality basics and functional apparel appeals to a wide demographic. The large, accessible store design facilitates high visitor volume, with weekends seeing a substantial surge from both tourists and local shoppers seeking everyday essentials.
 
-**Key Considerations:**
+*   **H&M (Powell Street)**
+    *   **Estimated Daily Visitors:**
+        *   **Weekdays:** 4, 500 - 6, 500
+        *   **Weekends:** 7, 000 - 10, 000+
+    *   **Insights:** H&M's prime location on Powell Street, directly in a high-traffic tourist corridor, positions it for the highest raw foot traffic among these competitors. Its fast-fashion, high-turnover model, combined with attractive pricing, draws a very large and diverse crowd, particularly younger demographics and impulse buyers. Weekends are exceptionally busy, driven by peak tourist activity and leisure shopping.
 
-*   **Location Attractiveness:** All listed competitors benefit from prime downtown San Francisco locations, situated within high-traffic retail corridors and near public transportation hubs.
-*   **Store Size:** Nordstrom and Macy's, as department stores, have a significant advantage in drawing and accommodating larger volumes of shoppers due to their extensive floor space.
-*   **Weekday vs. Weekend Dynamics:** Weekends are consistently the peak traffic periods for all retailers, driven by leisure shopping. Weekdays are influenced by the presence of office workers, tourists, and targeted shoppers.
-*   **Brand Appeal:** Each brand has a distinct appeal, attracting different customer segments. Nordstrom and Macy's cater to a broader, more established shopper base, while H&M, Zara, and Uniqlo resonate strongly with trend-conscious and value-seeking consumers.
+---
 
-**Recommendations:**
+**Key Takeaways:**
 
-*   **Staffing & Inventory:** Ensure adequate staffing and inventory levels, particularly on weekends, to manage peak traffic and maximize sales opportunities.
-*   **Promotional Strategies:** Tailor promotional activities to weekday and weekend traffic patterns. Consider weekday promotions to drive traffic during slower periods and weekend events to capitalize on higher footfall.
-*   **Customer Experience:** Focus on delivering a positive in-store experience to encourage repeat visits and positive word-of-mouth, especially for the fast fashion retailers.      
-    Strategy: ## Retail Strategy Recommendations: Downtown San Francisco
+*   **Location is Paramount:** Retailers on Powell Street (H&M, Uniqlo) leverage direct exposure to massive pedestrian and tourist flows, resulting in the highest visitor counts.     
+*   **Fast Fashion Dominance:** H&M and Zara's fast-fashion models drive high visitor turnover and impulse purchases, contributing to their strong foot traffic.
+*   **Weekend Surge:** All retailers experience a significant increase in visitors on weekends (typically 40-70% higher than weekdays), primarily due to increased leisure shopping and tourist activity.
+*   **Flagship Appeal:** Macy's, despite its traditional department store model, maintains strong visitor numbers due to its iconic status and broad appeal as a destination.
+    Strategy: **Competitive Strategy for Downtown San Francisco Retail**
 
-**Objective:** To attract more visitors and differentiate from competitors in Downtown San Francisco.
+**I. Executive Summary & Key Insights**
 
-**Analysis Summary:**
+The downtown San Francisco retail landscape is highly competitive, driven by significant tourist, local shopper, and office worker traffic. Key insights from competitor foot traffic analysis reveal:
 
-*   **Anchor Stores (Nordstrom, Macy's):** High overall traffic, especially weekends. Broad appeal, large footprint.
-*   **Fast Fashion (H&M, Zara, Uniqlo):** Moderate to High traffic, significant weekday draw from office workers, strong weekend surge. Appeal to younger, trend-conscious, and value-seeking demographics.
-*   **Common Strengths:** Prime locations, proximity to transit.
-*   **Key Differentiator:** Brand appeal and target customer segments.
+*   **Location Dominance:** Retailers on Powell Street (H&M, Uniqlo) leverage direct exposure to massive pedestrian and tourist flows, resulting in the highest visitor counts.        
+*   **Fast Fashion & Basics Appeal:** H&M, Zara, and Uniqlo's models (fast fashion, trendy, affordable, or quality basics) drive high visitor turnover and impulse purchases.
+*   **Weekend Surge:** All retailers experience a substantial increase in visitors on weekends (40-70% higher than weekdays), primarily due to increased leisure shopping and tourist activity.
+*   **Flagship Destination:** Macy's maintains strong visitor numbers due to its iconic status and broad appeal as a destination.
 
-**Actionable Recommendations:**
+To compete effectively, our strategy must focus on differentiation, leveraging peak traffic periods, and optimizing the in-store experience.
 
-**1. Enhance In-Store Experience & Differentiation:**
+**II. Strategic Imperatives**
 
-*   **Curated Collections & Experiential Zones:**
-    *   **Action:** Create distinct "zones" within the store that highlight specific trends, occasions (e.g., "Work from Anywhere Essentials," "Weekend Getaway Style"), or collaborations.
-    *   **Benefit:** Offers a more engaging and personalized shopping journey, differentiating from the broader offerings of department stores and the more uniform feel of some fast fashion.
-*   **"San Francisco Style" Focus:**
-    *   **Action:** Feature a curated selection of items that reflect the unique style and needs of San Francisco residents (e.g., versatile pieces for changing weather, sustainable fashion options, local designer collaborations).
-    *   **Benefit:** Creates a strong local connection and a unique selling proposition that competitors may not emphasize.
-*   **Interactive Elements & Technology:**
-    *   **Action:** Implement interactive fitting rooms with styling suggestions, digital lookbooks, or a "style quiz" to personalize recommendations.
-    *   **Benefit:** Enhances engagement, provides value-added services, and captures customer data for future personalization.
+1.  **Cultivate a Distinctive Brand Identity:** Differentiate beyond price to create a compelling reason for visitors to choose us over established giants.
+2.  **Maximize Weekend & Tourist Engagement:** Capitalize on peak traffic periods and the high volume of leisure shoppers and tourists.
+3.  **Optimize In-Store Experience:** Transform the physical space into an engaging and memorable destination.
 
-**2. Targeted Pricing & Promotion Strategies:**
+**III. Actionable Recommendations**
 
-*   **Weekday "Power Hours" Promotions:**
-    *   **Action:** Offer exclusive discounts or "buy one, get one" deals during specific weekday hours (e.g., 11 AM - 2 PM) targeting office workers.
-    *   **Benefit:** Drives traffic during slower periods and captures impulse purchases from the weekday commuter base.
-*   **Weekend "Discovery" Events:**
-    *   **Action:** Host small, engaging events on weekends like styling workshops, new collection previews with local influencers, or "meet the designer" sessions.
-    *   **Benefit:** Creates a destination experience, encourages longer stays, and generates social media buzz.
-*   **Loyalty Program with Experiential Rewards:**
-    *   **Action:** Beyond discounts, offer rewards like early access to sales, invitations to exclusive events, or personalized styling consultations for loyal customers.
-    *   **Benefit:** Fosters customer loyalty and encourages repeat visits by offering unique value.
+**A. Attracting Visitors & Driving Foot Traffic**
 
-**3. Optimize Store Layout & Merchandising:**
+*   **Hyper-Local Partnerships:** Collaborate with local hotels, tour operators, and convention centers to offer exclusive discounts or co-promotions, directly targeting the high volume of tourists.
+*   **Experiential Events:** Host regular in-store events (e.g., local artisan pop-ups, styling workshops, product launches, community gatherings) to create buzz and a reason to visit beyond transactional shopping.
+*   **Dynamic Window Displays:** Invest in highly engaging, frequently updated window displays that tell a story or showcase unique products, designed to capture attention from high foot traffic, especially on weekends.
+*   **Digital Visibility:** Ensure strong local SEO and geo-targeted social media campaigns to appear prominently in "things to do/shop in SF" searches and attract nearby visitors.   
 
-*   **"Hero" Product Placement:**
-    *   **Action:** Strategically place high-demand, trend-setting items at the front of the store or in high-visibility areas to immediately capture attention.
-    *   **Benefit:** Drives immediate interest and encourages exploration of the store.
-*   **Cross-Merchandising for Outfit Building:**
-    *   **Action:** Group complementary items together (e.g., tops with matching bottoms, accessories with outfits) to inspire complete looks and increase average transaction value.  
-    *   **Benefit:** Simplifies the shopping process for customers and encourages them to purchase more.
-*   **Dynamic Visual Merchandising:**
-    *   **Action:** Regularly update window displays and in-store mannequins to reflect current trends and seasonal themes, creating a sense of freshness and urgency.
-    *   **Benefit:** Attracts attention from passersby and keeps the store looking current and exciting.
+**B. Differentiation & Value Proposition**
 
-**4. Leverage Digital & Omnichannel Integration:**
+*   **Curated Product Assortment:** Focus on a unique, niche product selection that isn't readily available at mass-market competitors (e.g., sustainable fashion, local designer collaborations, artisanal goods, tech-integrated apparel).
+*   **Exceptional Service Model:** Implement a highly personalized customer service approach, offering expert advice, concierge-like services, or unique in-store experiences that elevate the shopping journey above transactional fast fashion.
+*   **Brand Storytelling:** Clearly communicate our brand's unique story, values (e.g., sustainability, craftsmanship, community support), and the "why" behind our products to resonate with conscious consumers and create emotional connections.
 
-*   **"Click & Collect" Optimization:**
-    *   **Action:** Ensure a seamless and efficient "buy online, pick up in-store" (BOPIS) experience with dedicated pick-up points and clear signage.
-**4. Leverage Digital & Omnichannel Integration:**
+**C. Store Layout & Customer Experience**
 
-*   **"Click & Collect" Optimization:**
-    *   **Action:** Ensure a seamless and efficient "buy online, pick up in-store" (BOPIS) experience with dedicated pick-up points and clear signage.
-    *   **Benefit:** Caters to the convenience-seeking shopper and drives in-store traffic for order fulfillment.
-*   **Social Media Engagement & Geo-Targeted Ads:**
-    *   **Action:** Utilize social media to showcase new arrivals, promote events, and run geo-targeted advertising campaigns to reach potential customers in the immediate vicinity.  
-    *   **Benefit:** Increases brand awareness and drives targeted foot traffic.
+*   **Immersive Store Design:** Create an inviting and memorable physical space with unique aesthetics, comfortable lounge areas, interactive displays, and "Instagrammable" moments that encourage exploration and dwell time.
+*   **Intuitive Navigation:** Design a clear, easy-to-navigate layout that encourages discovery while minimizing friction, especially during peak weekend traffic. Optimize product adjacencies to inspire cross-category purchases.
+*   **Seamless Checkout:** Implement efficient checkout processes (e.g., mobile POS, self-checkout options, multiple stations) to reduce wait times and improve overall satisfaction, particularly during busy periods.
+*   **Sensory Branding:** Utilize distinct music, scent, and lighting to create a unique and pleasant atmosphere that reinforces the brand identity and enhances the overall customer experience.
 
-**4. Leverage Digital & Omnichannel Integration:**
+**D. Pricing & Promotions**
 
-*   **"Click & Collect" Optimization:**
-    *   **Action:** Ensure a seamless and efficient "buy online, pick up in-store" (BOPIS) experience with dedicated pick-up points and clear signage.
-    *   **Benefit:** Caters to the convenience-seeking shopper and drives in-store traffic for order fulfillment.
-*   **Social Media Engagement & Geo-Targeted Ads:**
-    *   **Action:** Utilize social media to showcase new arrivals, promote events, and run geo-targeted advertising campaigns to reach potential customers in the immediate vicinity.  
-    *   **Benefit:** Increases brand awareness and drives targeted foot traffic.
-**4. Leverage Digital & Omnichannel Integration:**
-
-*   **"Click & Collect" Optimization:**
-    *   **Action:** Ensure a seamless and efficient "buy online, pick up in-store" (BOPIS) experience with dedicated pick-up points and clear signage.
-    *   **Benefit:** Caters to the convenience-seeking shopper and drives in-store traffic for order fulfillment.
-
-*   **"Click & Collect" Optimization:**
-    *   **Action:** Ensure a seamless and efficient "buy online, pick up in-store" (BOPIS) experience with dedicated pick-up points and clear signage.
-*   **"Click & Collect" Optimization:**
-    *   **Action:** Ensure a seamless and efficient "buy online, pick up in-store" (BOPIS) experience with dedicated pick-up points and clear signage.
-    *   **Benefit:** Caters to the convenience-seeking shopper and drives in-store traffic for order fulfillment.
-    *   **Action:** Ensure a seamless and efficient "buy online, pick up in-store" (BOPIS) experience with dedicated pick-up points and clear signage.
-    *   **Benefit:** Caters to the convenience-seeking shopper and drives in-store traffic for order fulfillment.
-    *   **Benefit:** Caters to the convenience-seeking shopper and drives in-store traffic for order fulfillment.
-*   **Social Media Engagement & Geo-Targeted Ads:**
-    *   **Action:** Utilize social media to showcase new arrivals, promote events, and run geo-targeted advertising campaigns to reach potential customers in the immediate vicinity.  
-    *   **Benefit:** Increases brand awareness and drives targeted foot traffic.
-
-By implementing these recommendations, the retail business can effectively attract more visitors, create a distinct competitive advantage, and foster stronger customer loyalty in the dynamic Downtown San Francisco market.
-```
+*   **Value-Based Pricing:** Position products based on their unique value, quality, and story, rather than solely competing on price with fast-fashion giants. Justify pricing through superior materials, craftsmanship, or exclusivity.
+*   **Targeted Promotions:**
+    *   **Weekend Specials:** Offer exclusive promotions, bundles, or limited-time offers specifically designed to capitalize on the weekend leisure shopper and tourist surge.        
+    *   **Local Loyalty Program:** Implement a tiered loyalty program for local residents and office workers, offering exclusive discounts, early access to new collections, or personalized rewards.
+    *   **Tourist Incentives:** Consider small, value-add incentives for tourists (e.g., a unique SF-themed gift with purchase over a certain amount, or a discount with a hotel key card).
+*   **Dynamic Bundling:** Create attractive product bundles that offer perceived value and encourage higher average transaction values, especially for complementary items.
 
 ## License
 
