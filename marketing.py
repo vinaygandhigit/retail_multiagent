@@ -5,7 +5,7 @@ from typing import TypedDict, List
 from langgraph.graph import StateGraph, END
 from IPython.display import display, Image, Markdown
 
-api_key = "AIzaSyCetE7LkDLLPpghZkZ1EFanBUME7AuqIhY" # Replace with your actual API key
+api_key = "" # Replace with your actual API key
 os.environ["GOOGLE_API_KEY"] = api_key
 #client = genai.Client(api_key=api_key)
 llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash-lite", temperature=0)
@@ -158,4 +158,5 @@ input_state = {
 
 result = app.invoke(input_state)
 print(result["report"])
+
 display(Markdown(result["report"]))
