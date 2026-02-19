@@ -13,10 +13,10 @@ This project uses a directed acyclic graph (DAG) to pass a business "state" thro
 ---
 
 ## Tech Stack
-**Orchestration:** LangGraph
-**LLM:** Google Gemini 2.5-flash-lite (via langchain-google-genai)
-**Language:** Python 3.12+
-**State Management:** Python TypedDict
+- **Orchestration:** LangGraph
+- **LLM:** Google Gemini 2.5-flash-lite (via langchain-google-genai)
+- **Language:** Python 3.12+
+- **State Management:** Python TypedDict
 
 ---
 ## Getting Started
